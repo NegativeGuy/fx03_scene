@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="380.0" prefWidth="538.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/16">
+   <children>
+      <Button layoutX="472.0" layoutY="85.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="52.0" text="로그인">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <TextField layoutX="364.0" layoutY="85.0" prefHeight="22.0" prefWidth="105.0" />
+      <TextField layoutX="363.0" layoutY="112.0" prefHeight="22.0" prefWidth="106.0" />
+      <TextField layoutX="148.0" layoutY="85.0" prefHeight="22.0" prefWidth="160.0" />
+      <TextField layoutX="148.0" layoutY="116.0" prefHeight="22.0" prefWidth="160.0" />
+      <Label layoutX="123.0" layoutY="86.0" text="ID">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="117.0" layoutY="117.0" text="PW">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <HBox alignment="CENTER_RIGHT" layoutX="96.0" prefHeight="78.0" prefWidth="427.0" spacing="15.0">
+         <children>
+            <Label text="홈">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label text="사회">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label text="경제">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label text="국제">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label text="문화">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <VBox layoutX="26.0" layoutY="59.0" prefHeight="299.0" prefWidth="86.0" spacing="5.0">
+         <children>
+            <Label prefHeight="20.0" prefWidth="86.0" text="카테고리">
+               <font>
+                  <Font name="Consolas" size="15.0" />
+               </font>
+            </Label>
+            <Label prefHeight="20.0" prefWidth="86.0" text="노트북/PC">
+               <font>
+                  <Font name="Consolas" size="15.0" />
+               </font>
+            </Label>
+            <Label prefHeight="20.0" prefWidth="86.0" text="자동차용품">
+               <font>
+                  <Font name="Consolas" size="15.0" />
+               </font>
+            </Label>
+            <Label prefHeight="20.0" prefWidth="86.0" text="휴대폰">
+               <font>
+                  <Font name="Consolas" size="15.0" />
+               </font>
+            </Label>
+            <Label prefHeight="20.0" prefWidth="86.0" text="캠핑/낚시">
+               <font>
+                  <Font name="Consolas" size="15.0" />
+               </font>
+            </Label>
+         </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </VBox>
+      <RadioButton layoutX="117.0" layoutY="160.0" mnemonicParsing="false" selected="true" text="여">
+         <toggleGroup>
+            <ToggleGroup fx:id="a" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton layoutX="167.0" layoutY="160.0" mnemonicParsing="false" text="남" toggleGroup="$a" />
+      <CheckBox layoutX="117.0" layoutY="193.0" mnemonicParsing="false" text="게임" />
+      <CheckBox layoutX="167.0" layoutY="193.0" mnemonicParsing="false" text="공부" />
+      <TextArea layoutX="116.0" layoutY="251.0" prefHeight="78.0" prefWidth="224.0" />
+      <Label layoutX="117.0" layoutY="231.0" text="하고 싶은 말">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
